@@ -1,1 +1,11 @@
+# Ignore environment files (contains sensitive data)
+.env
+
+# Ignore logs & cache files
+storage/
+storage/logs/
+storage/framework/
+storage/debugbar/
+
+# Ignore Composer dependencies (should be installed via composer install)
 vendor/
